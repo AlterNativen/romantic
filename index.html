@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Birthday Surprise</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div id="question-box">
+      <p id="question-text">Do you love me?</p>
+      <div id="buttons">
+        <button onclick="handleAnswer('yes')">Yes</button>
+        <button onclick="handleAnswer('no')">No</button>
+      </div>
+    </div>
+    <div id="final-screen" class="hidden">
+      <p>Here's something special for you...</p>
+      <video controls>
+        <source src="video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
