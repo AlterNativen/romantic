@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fff8dc;
+  background-image: url('paper-texture.png'); /* Optional: Add a paper texture image */
+  background-size: cover;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+}
+
+#question-box, #final-screen {
+  margin-top: 2em;
+}
+
+button {
+  margin: 1em;
+  padding: 0.5em 1.5em;
+  font-size: 1em;
+  background-color: #f5deb3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #eecfa1;
+}
+
+.hidden {
+  display: none;
+}
+
+video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+}
